@@ -1,0 +1,12 @@
+#include<iostream>
+#include<string>
+#include<fstream>
+using namespace std;
+
+int main()
+{
+	ofstream fout;
+	fout.open("OUT.txt");
+	fout << "Time is a great teacher but unfortunately it kills all its pupils Berlioz";
+	fout.close();
+}
