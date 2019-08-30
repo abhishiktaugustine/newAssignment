@@ -1,0 +1,26 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int fact(double);
+
+void main()
+{
+	double result, value;
+	cout << "Enter the number whose factorial you wnat to find\n";
+	cin >> value;
+	result=fact(value);
+	cout << "Factorial of Number is:" << " " << result << endl;
+}
+
+int fact(double value)
+{
+	int i;
+	double temp = 1;
+	for (i = 1;i <= value;i++)
+	{
+		temp = temp * i;
+	}
+	return temp;
+}
