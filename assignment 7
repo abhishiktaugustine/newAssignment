@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+void check()
+{
+	double a;
+	cout << "Enter the value\n";
+		cin >> a;
+		 (a < 0 ? cout << "negative" : cout << "positive");
+}
+void main() {
+	check();
+}
