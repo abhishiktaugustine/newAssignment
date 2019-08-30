@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+void simpleInterest() {
+	double p, r, t, SI;
+	cout << "Enter the principle : \n";
+	cin >> p;
+	cout << "Enter the Rate : \n";
+	cin >> r;
+	cout << "Enter the time : \n";
+	cin >> t;
+	SI = (p*r*t) / 100;
+	cout << " The simple interest is : \n" << SI;
+
+}
+int main() {
+	simpleInterest();
+}
