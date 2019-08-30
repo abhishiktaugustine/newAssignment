@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+void comparison(int a,int b) {
+	 
+	if (a^b)
+		cout << "Not same";
+	else
+		cout << "same";
+}
+void main()
+{
+	int val1{}, val2{};
+	cout << "Enter the first value : ";
+	cin >> val1;
+	cout << "Enter the second value : ";
+	cin >> val2;
+
+	comparison(val1, val2);
+}
